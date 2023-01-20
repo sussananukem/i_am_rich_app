@@ -44,7 +44,9 @@ class _MyHomePageState extends State<MyHomePage> {
       backgroundColor: Colors.blueGrey,
       body: const Center(
         child: Image(
-          image: AssetImage('images/diamond.png',),
+          image: AssetImage('images/diamond_red.png',),
+          width: 300.0,
+          height: 300.0,
         ),
       ),
     );
